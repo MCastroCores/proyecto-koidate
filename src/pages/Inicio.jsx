@@ -6,12 +6,11 @@ import { Footer } from "../components/Footer/Footer.jsx";
 import fotoGemelo from "../assets/masajeGemelo.png";
 import fotoEspalda from "../assets/masajeEspalda.png";
 import fotoFitball from "../assets/estiramientoFitball.png";
-// import logoFondoRojo from "../assets/pegatinaunica.png";
+import logoFondoRojo from "../assets/pegatinaunica.png";
 import fotoCasa from "../assets/casa.png";
 import { WhatsUpButton } from "../components/WhatsUpButton/WhatsUpButton.jsx";
 import { ClickBurguerContext } from "../contexts/ClickBurguerContext.jsx";
 import { useContext } from "react";
-import fotoPrueba from "../assets/fotoparapruebas.jpg";
 
 export const Inicio = () => {
   const { burguerClick, handleClick } = useContext(ClickBurguerContext);
@@ -20,7 +19,7 @@ export const Inicio = () => {
       <div onClick={burguerClick ? handleClick : null}>
         <Header />
         <main>
-          <ContainerPrincipal img={fotoPrueba} />
+          <ContainerPrincipal img={logoFondoRojo} />
           <h2 className="text-3xl text-blanco font-bold text-center mt-10 bg-primary p-10 md:text-5xl">
             SERVICIOS
           </h2>

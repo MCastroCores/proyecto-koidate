@@ -7,6 +7,7 @@ import { ClickBurguerContext } from "../../contexts/ClickBurguerContext.jsx";
 import { BurguerButton } from "../BurguerButton/BurguerButton.jsx";
 import { InformacionContacto } from "../InformacionContacto/InformacionContacto.jsx";
 import koidateLogo from "../../assets/logoblancokoidateModificado.png";
+import logoRojo from "../../assets/logo-rojo.png";
 
 // COMPONENTE QUE ENGLOBA EL ENCABEZADO
 
@@ -24,46 +25,46 @@ export const Header = () => {
   return (
     <>
       <InformacionContacto />
-      <header className="flex justify-between items-center">
+      <header className="flex justify-between items-center my-5">
         <div className="containerImg bg-primary">
-          <img className="logo" src={koidateLogo} alt="logo" />
+          <img className="logo" src={logoRojo} alt="logo" />
         </div>
         <nav
-          className={`headerNavBar flex mr-20 list-none gap-5 self-end p-5 font-semibold text-negro ${
+          className={`headerNavBar flex mr-20 list-none gap-5 self-end p-5 font-bold text-primary ${
             burguerClick ? "active" : ""
           }`}
         >
           <NavLink
             to="/"
-            className="hover:border-b border-negro"
+            className="hover:border-b border-primary"
             onClick={window.innerWidth < 768 ? handleNavLinkClick : null}
           >
             INICIO
           </NavLink>
           <NavLink
             to="/servicios"
-            className="hover:border-b border-negro"
+            className="hover:border-b border-primary"
             onClick={window.innerWidth < 768 ? handleNavLinkClick : null}
           >
             SERVICIOS
           </NavLink>
           <NavLink
             to="/equipo"
-            className="hover:border-b border-negro"
+            className="hover:border-b border-primary"
             onClick={window.innerWidth < 768 ? handleNavLinkClick : null}
           >
             EQUIPO
           </NavLink>
           <NavLink
             to="/ubicaciones"
-            className="hover:border-b border-negro"
+            className="hover:border-b border-primary"
             onClick={window.innerWidth < 768 ? handleNavLinkClick : null}
           >
             UBICACIONES
           </NavLink>
           <NavLink
             to="/contacto"
-            className="hover:border-b border-negro"
+            className="hover:border-b border-primary"
             onClick={window.innerWidth < 768 ? handleNavLinkClick : null}
           >
             CONTACTO
