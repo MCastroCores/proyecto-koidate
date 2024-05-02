@@ -139,8 +139,8 @@ header nav .active {
 .headerNavBar {
   position: initial;
 
-  @media (width < 768px) {
-    background-color: white;
+  @media (width < 769px) {
+    background-color: rgb(233, 233, 233);
     position: absolute;
     top: 181px;
     right: -300px;
@@ -163,9 +163,9 @@ header nav .active {
 }
 
 .headerNavBar.active {
-  @media (width < 768px) {
+  @media (width < 769px) {
     position: absolute;
-    top: 181px;
+    top: 190px;
     right: 0;
     display: flex;
     flex-direction: column;

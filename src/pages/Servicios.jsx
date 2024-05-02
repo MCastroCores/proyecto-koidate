@@ -13,7 +13,7 @@ export const Servicios = () => {
     <>
       <Header />
       <main>
-        <h2 className="text-3xl text-negro font-bold text-center mt-10 p-10 md:text-5xl">
+        <h2 className="text-3xl text-primary font-bold text-center mt-10 p-10 md:text-5xl">
           SERVICIOS
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2">

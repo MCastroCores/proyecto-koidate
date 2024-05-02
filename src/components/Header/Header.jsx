@@ -6,7 +6,6 @@ import "../../index.css";
 import { ClickBurguerContext } from "../../contexts/ClickBurguerContext.jsx";
 import { BurguerButton } from "../BurguerButton/BurguerButton.jsx";
 import { InformacionContacto } from "../InformacionContacto/InformacionContacto.jsx";
-import koidateLogo from "../../assets/logoblancokoidateModificado.png";
 import logoRojo from "../../assets/logo-rojo.png";
 
 // COMPONENTE QUE ENGLOBA EL ENCABEZADO
