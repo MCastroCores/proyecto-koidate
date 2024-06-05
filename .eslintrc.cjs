@@ -13,7 +13,7 @@ module.exports = {
   settings: { react: { version: "18.2" } },
   plugins: ["react-refresh"],
   rules: {
-    "comma-dangle": ["error", "always-multiline"],
+    "comma-dangle": ["warning", "always-multiline"],
     quotes: "off",
     semi: ["error", "always"],
     "react/jsx-no-target-blank": "off",

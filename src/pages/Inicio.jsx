@@ -22,7 +22,7 @@ export const Inicio = () => {
     <>
       <div onClick={burguerClick ? handleClick : null}>
         <Header />
-        <main>
+        <main className="flex flex-col">
           <ContainerPrincipal img={logoFondoRojo} />
           <h2 className="text-3xl text-blanco font-bold text-center mt-10 bg-primary p-10 md:text-5xl">
             SERVICIOS

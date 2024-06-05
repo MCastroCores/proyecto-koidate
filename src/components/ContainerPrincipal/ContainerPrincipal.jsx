@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 
 export const ContainerPrincipal = ({ img }) => {
   return (
-    <section className="bg-[url(C:\Users\castr\Desktop\DEVELOPER\GITHUB\proyecto-koidate\src\assets\isaMasaje.jpeg)] bg-cover flex flex-col justify-around items-center min-h-screen">
+    <section className="bg-[url(C:\Users\castr\Desktop\DEVELOPER\GITHUB\proyecto-koidate\src\assets\isaMasaje.jpeg)] bg-cover flex flex-col justify-around items-center min-h-screen md:min-h-2xl md:w-3/4 md:mx-auto">
       {/* <div className="containerPrincipalImg max-w-xl">
         <img src={img} alt="" />
       </div> */}
