@@ -43,7 +43,7 @@ export const Ubicaciones = () => {
           </div>
           <Link
             className="text-center text-blanco font-bold p-3 bg-primary mx-auto block w-52 mt-10"
-            to="../registro_sanitario_neopod.pdf"
+            to="../proyecto-koidate/registro_sanitario_neopod.pdf"
             target="_blank"
           >
             Registro sanitario Clínica Dedopie PDF
@@ -78,7 +78,7 @@ export const Ubicaciones = () => {
           </div>
           <Link
             className="text-center text-blanco font-bold p-3 bg-primary mx-auto block w-52 mt-10"
-            to="../registro_sanitario_neopod.pdf"
+            to="../proyecto-koidate/registro_sanitario_neopod.pdf"
             target="_blank"
           >
             Registro sanitario Clínica Neopod PDF
