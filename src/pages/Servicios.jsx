@@ -2,10 +2,6 @@ import { Footer } from "../components/Footer/Footer.jsx";
 import { Header } from "../components/Header/Header.jsx";
 import { ContainerServicios } from "../components/ContainerServicios/ContainerServicios.jsx";
 
-// import fotoGemelo from "../assets/masajeGemelo.png";
-// import fotoEspalda from "../assets/masajeEspalda.png";
-// import fotoFitball from "../assets/estiramientoFitball.png";
-// import fotoCasa from "../assets/casa.png";
 import sesionFisioterapia from "../assets/sesionfisioterapia.jpg";
 import ejercicioTerapeutico from "../assets/ejercicioterapeutico.jpg";
 import servicioDomicilio from "../assets/servicioadomicilio.jpg";
