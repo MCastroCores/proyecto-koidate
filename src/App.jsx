@@ -14,24 +14,36 @@ import { ServicioEjercicioTerapeutico } from "./pages/ServicioEjercicioTerapeuti
 import { ServicioPilatesTerapeutico } from "./pages/ServicioPilatesTerapeutico.jsx";
 import { ServicioAtencionDomicilio } from "./pages/ServicioAtencionDomicilio.jsx";
 
-function App () {
+function App() {
   return (
     <ClickBurguerProvider>
-    <Routes>
-      <Route path='/' element={<Inicio />} />
-      <Route path='/servicios' element={<Servicios />} />
-      <Route path='/servicios/sesionfisioterapia' element={<ServicioSesionFisioterapia />} />
-      <Route path='/servicios/ejercicioterapeutico' element={<ServicioEjercicioTerapeutico />} />
-      <Route path='/servicios/pilatesterapeutico' element={<ServicioPilatesTerapeutico />} />
-      <Route path='/servicios/sesionadomicilio' element={<ServicioAtencionDomicilio />} />
-      <Route path='/equipo' element={<Equipo />} />
-      <Route path='/contacto' element={<Contacto />} />
-      <Route path='/privacidad' element={<Privacidad />} />
-      <Route path='/avisolegal' element={<AvisoLegal />} />
-      <Route path='/cookies' element={<Cookies />} />
-      <Route path='/ubicaciones' element={<Ubicaciones />} />
-      <Route path='*' element={<NotFound />} />
-    </Routes>
+      <Routes>
+        <Route path="/proyecto-koidate" element={<Inicio />} />
+        <Route path="/servicios" element={<Servicios />} />
+        <Route
+          path="/servicios/sesionfisioterapia"
+          element={<ServicioSesionFisioterapia />}
+        />
+        <Route
+          path="/servicios/ejercicioterapeutico"
+          element={<ServicioEjercicioTerapeutico />}
+        />
+        <Route
+          path="/servicios/pilatesterapeutico"
+          element={<ServicioPilatesTerapeutico />}
+        />
+        <Route
+          path="/servicios/sesionadomicilio"
+          element={<ServicioAtencionDomicilio />}
+        />
+        <Route path="/equipo" element={<Equipo />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/privacidad" element={<Privacidad />} />
+        <Route path="/avisolegal" element={<AvisoLegal />} />
+        <Route path="/cookies" element={<Cookies />} />
+        <Route path="/ubicaciones" element={<Ubicaciones />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </ClickBurguerProvider>
   );
 }
