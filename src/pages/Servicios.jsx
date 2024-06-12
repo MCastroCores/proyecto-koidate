@@ -31,8 +31,7 @@ export const Servicios = () => {
           />
           <ContainerServicios
             img={pilatesTerapeutico}
-            service="PILATES TERAPÉUTICO (INDIVIDUAL)"
-            price="30"
+            service="PILATES TERAPÉUTICO"
             servicelink="/servicios/pilatesterapeutico"
           />
           <ContainerServicios

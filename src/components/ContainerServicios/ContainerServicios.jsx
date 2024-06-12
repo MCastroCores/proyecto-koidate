@@ -20,7 +20,7 @@ export const ContainerServicios = ({ img, service, price, servicelink }) => {
       <div>
         <p className=" text-3xl p-4 text-center tracking-tighter font-semibold">
           {price}
-          <sup className="text-xl"> €</sup>
+          {price && <sup className="text-xl"> €</sup>}
         </p>
       </div>
       <Link

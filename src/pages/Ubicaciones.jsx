@@ -45,7 +45,7 @@ export const Ubicaciones = () => {
             to="../registro_sanitario_neopod.pdf"
             target="_blank"
           >
-            Acceso a registro sanitario Clínica Dedopie en PDF
+            Acceso a registro sanitario en PDF
           </Link>
         </section>
         <section>
@@ -80,7 +80,7 @@ export const Ubicaciones = () => {
             to="../registro_sanitario_neopod.pdf"
             target="_blank"
           >
-            Acceso a registro sanitario Clínica Neopod en PDF
+            Acceso a registro sanitario en PDF
           </Link>
         </section>
         <WhatsUpButton />
