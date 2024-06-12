@@ -20,7 +20,6 @@ export const Ubicaciones = () => {
           <div className="flex flex-col md:flex-row justify-center items-center font-bold text-xl md:text-2xl">
             <TfiLocationPin />
             <p className="p-5 text-center">
-              {" "}
               Plaza da Gaiteira 2 Bajo Izq 2 A Coruña 15006 (En el interior de
               Clínica Dedopie Podología)
             </p>

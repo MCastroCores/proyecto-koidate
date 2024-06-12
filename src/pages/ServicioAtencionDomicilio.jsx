@@ -14,7 +14,7 @@ export const ServicioAtencionDomicilio = () => {
         <img
           className="my-10 w-48 md:w-96 self-center rounded-md"
           src={servicioDomicilio}
-          alt="foto de una sesión de fisioterapia"
+          alt="foto de una sesión de fisioterapia a domicilio"
         />
         <p className="mb-5 mx-3 md:text-2xl md:mx-10">
           Sesiones en casa dirigidas a personas que prefieran una atención

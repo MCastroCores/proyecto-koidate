@@ -14,7 +14,7 @@ export const ServicioPilatesTerapeutico = () => {
         <img
           className="my-10 w-48 md:w-96 self-center rounded-md"
           src={pilatesTerapeutico}
-          alt="foto de una sesión de fisioterapia"
+          alt="foto de una sesión de pilates terapéutico"
         />
         <p className="mb-5 mx-3 md:text-2xl md:mx-10">
           El pilates es un tipo de ejercicio de media- baja intensidad con

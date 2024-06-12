@@ -19,7 +19,7 @@ export const Equipo = () => {
           <img
             className="absolute rounded-full imgEquipo object-contain"
             src={fotoIsa}
-            alt="fotoIsa"
+            alt="foto de perfil"
           />
         </div>
         <div className="ml-2 md:ml-20 p-10">

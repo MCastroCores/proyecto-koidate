@@ -15,7 +15,7 @@ export const ServicioEjercicioTerapeutico = () => {
         <img
           className="my-10 w-48 md:w-96 self-center rounded-md"
           src={ejercicioTerapeutico}
-          alt="foto de una sesión de fisioterapia"
+          alt="foto de una sesión de ejercicio terapéutico"
         />
         <p className="mb-5 mx-3 md:text-2xl md:mx-10">
           Actualmente sabemos que el ejercicio es una de las mejores

@@ -12,7 +12,7 @@ export const ContainerServicios = ({ img, service, price, servicelink }) => {
   return (
     <section className="containerServicios border border-primary flex flex-col justify-center items-center w-3/4 mx-auto mt-20">
       <div className="containerLogoFondoRojo mt-5 w-3/4">
-        <img className="rounded-md" src={img} alt="" />
+        <img className="rounded-md" src={img} alt={`foto de ${img}`} />
       </div>
       <h2 className="p-3 my-3 font-semibold text-center text-3xl md:text-4xl text-blanco bg-primary">
         {service}
