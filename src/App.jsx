@@ -18,7 +18,7 @@ function App() {
   return (
     <ClickBurguerProvider>
       <Routes>
-        <Route path="/proyecto-koidate" element={<Inicio />} />
+        <Route path="/" element={<Inicio />} />
         <Route path="/servicios" element={<Servicios />} />
         <Route
           path="/servicios/sesionfisioterapia"

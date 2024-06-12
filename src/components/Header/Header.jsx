@@ -34,7 +34,7 @@ export const Header = () => {
           }`}
         >
           <NavLink
-            to="/proyecto-koidate"
+            to="/"
             className="hover:border-b border-primary"
             onClick={window.innerWidth < 768 ? handleNavLinkClick : null}
           >
