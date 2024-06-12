@@ -9,10 +9,10 @@ export const ServicioPilatesTerapeutico = () => {
       <Header />
       <main className="flex flex-col">
         <h2 className="text-center font-bold text-2xl mt-10 mb-10 text-primary md:text-4xl">
-          Pilates Terapeutico
+          Pilates Terapéutico
         </h2>
         <img
-          className="my-10 w-48 md:w-60 self-center rounded-md"
+          className="my-10 w-48 md:w-96 self-center rounded-md"
           src={pilatesTerapeutico}
           alt="foto de una sesión de fisioterapia"
         />

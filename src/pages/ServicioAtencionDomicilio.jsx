@@ -9,10 +9,10 @@ export const ServicioAtencionDomicilio = () => {
       <Header />
       <main className="flex flex-col">
         <h2 className="text-center font-bold text-2xl mt-10 mb-10 text-primary md:text-4xl">
-          Sesion Fisioterapia
+          Sesión Fisioterapia a Domicilio
         </h2>
         <img
-          className="my-10 w-48 md:w-60 self-center rounded-md"
+          className="my-10 w-48 md:w-96 self-center rounded-md"
           src={servicioDomicilio}
           alt="foto de una sesión de fisioterapia"
         />

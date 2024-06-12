@@ -42,11 +42,11 @@ export const Ubicaciones = () => {
             </article>
           </div>
           <Link
-            className="text-center text-blanco font-bold p-3 bg-primary mx-auto block w-52 mt-10"
+            className="text-center text-blanco font-bold p-3 bg-primary mx-auto block w-52 mt-10 hover:opacity-70"
             to="../proyecto-koidate/registro_sanitario_neopod.pdf"
             target="_blank"
           >
-            Registro sanitario Clínica Dedopie PDF
+            Acceso a registro sanitario Clínica Dedopie en PDF
           </Link>
         </section>
         <section>
@@ -77,11 +77,11 @@ export const Ubicaciones = () => {
             </article>
           </div>
           <Link
-            className="text-center text-blanco font-bold p-3 bg-primary mx-auto block w-52 mt-10"
+            className="text-center text-blanco font-bold p-3 bg-primary mx-auto block w-52 mt-10 hover:opacity-70"
             to="../proyecto-koidate/registro_sanitario_neopod.pdf"
             target="_blank"
           >
-            Registro sanitario Clínica Neopod PDF
+            Acceso a registro sanitario Clínica Neopod en PDF
           </Link>
         </section>
         <WhatsUpButton />

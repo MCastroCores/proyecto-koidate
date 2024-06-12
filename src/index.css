@@ -54,7 +54,7 @@ header nav .active {
 }
 
 .containerImg {
-  width: 300px;
+  width: 450px;
   background-color: transparent;
   @media (width < 768px) {
     width: 200px;

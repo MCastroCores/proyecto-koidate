@@ -10,10 +10,10 @@ export const ServicioEjercicioTerapeutico = () => {
       <Header />
       <main className="flex flex-col">
         <h2 className="text-center font-bold text-2xl mt-10 mb-10 text-primary md:text-4xl">
-          Ejercicio Terapeutico
+          Ejercicio Terapéutico
         </h2>
         <img
-          className="my-10 w-48 md:w-60 self-center rounded-md"
+          className="my-10 w-48 md:w-96 self-center rounded-md"
           src={ejercicioTerapeutico}
           alt="foto de una sesión de fisioterapia"
         />
